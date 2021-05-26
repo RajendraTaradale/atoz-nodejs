@@ -65,16 +65,34 @@ app.listen(3000,(req,res)=>{
 ```
 Now when every time the app receives a request, it prints the message “Application Logged” to the terminal.
 
-Types of express middleware
+   Types of express middleware
 
-Application level middleware ➡️ app.use
-Router level middleware  ➡️ router.use
-Built-in middleware  ➡️ express.static,express.json,express.urlencoded
-Error handling middleware  ➡️ app.use(err,req,res,next)
-Thirdparty middleware  ➡️ bodyparser,cookieparser
+   Application level middleware ➡️ app.use
+   Router level middleware  ➡️ router.use
+   Built-in middleware  ➡️ express.static,express.json,express.urlencoded
+   Error handling middleware  ➡️ app.use(err,req,res,next)
+   Thirdparty middleware  ➡️ bodyparser,cookieparser
    
    
-   :red_circle: ffffffffffff :question: 
+   :red_circle: Serial Promises vs Parallel Promises :question: 
+   
+   Promise.all() function takes in an array of Promise objects as parameter and tries to resolve them all, 
+   and then returns the resolved object. If any one promise object in the array gets rejected, the entire Promise.all() gets rejected.
+   
+   How does Promise.all() works internally ?
+   
+   promise resolution follows a serial order of execution.
+   promise.all() is internally a foreach ‘kind of’ loop which iterates over the iterable we provide. This loop preserves the order of items 
+   in the iterables. The resolved promise values are also in order regardless of when its got resolved. Thus we can concede that
+   the Promise.all() method executes the promises in series
+   
+   JavaScript runtime is single-threaded. We do not have access to thread in JavaScript. 
+   Even if you have multi-core CPU you still can't run tasks in parallel using JavaScript.
+   
+   Differences 👬
+   Promise.all will reject as soon as one of the Promises in the array rejects.
+   Promise.allSettled will never reject, it will resolve once all Promises in the array have either rejected or resolved.
+
    :red_circle: ffffffffffff :question: 
    :red_circle: ffffffffffff :question: 
    :red_circle: ffffffffffff :question: 
