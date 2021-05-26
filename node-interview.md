@@ -93,7 +93,33 @@ Now when every time the app receives a request, it prints the message “Applica
    Promise.all will reject as soon as one of the Promises in the array rejects.
    Promise.allSettled will never reject, it will resolve once all Promises in the array have either rejected or resolved.
 
-   :red_circle: ffffffffffff :question: 
+   :red_circle: How to localization in node.js with express :question: 
+   
+   npm install i18next --save
+   npm install i18next-express-middleware --save
+   npm install i18next-node-fs-backend --save
+   
+   const i18next = require('i18next');
+   const i18nextMiddleware = require('i18next-express-middleware');
+   
+   app.use(i18nextMiddleware.handle(i18next));
+   --Add language resource files
+   So you can perform translations in the controller by using the t method: req.i18n.t("home.title").
+   ---
+   ```
+   var i18n = require("i18n");
+   i18n.configure({
+  locales:['en', 'de'],
+  directory: __dirname + '/server/locales'
+  });
+    app.use(i18n.init);
+    //In your controller
+    res__('RTSAPP_KEY_Name')
+```
+▶️ In Request just set the HTTP header Accept-Language with value 'en', 'it' or any
+
+💡 https://github.com/noveogroup-amorgunov/localizify
+
    :red_circle: ffffffffffff :question: 
    :red_circle: ffffffffffff :question: 
   
