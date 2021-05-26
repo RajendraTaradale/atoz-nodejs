@@ -1,4 +1,4 @@
-1. What is Node JS ?
+:rotating_light:  What is Node JS ?
    Node.js = Runtime Environment + JavaScript Library
    
    Node.js comes with runtime environment on which a Javascript based script can be interpreted and executed
