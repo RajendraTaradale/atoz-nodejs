@@ -10,6 +10,11 @@
    Offers server-side scripting functionalities
          
 2. Differentiate between JavaScript and Node.js ?
+   | First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
    Features         |  JavaScript                   |       Node Js   
    Type             |  Programming Language         |  Interpreter and environment for JavaScript  
    Utility          |  Used for any client-side     |  Used for accessing or performing any non-blocking operation of any operating system 
