@@ -10,19 +10,12 @@
    Offers server-side scripting functionalities
          
 2. Differentiate between JavaScript and Node.js ?
-   | First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
-   Features         |  JavaScript                   |       Node Js   
-   Type             |  Programming Language         |  Interpreter and environment for JavaScript  
-   Utility          |  Used for any client-side     |  Used for accessing or performing any non-blocking operation of any operating system 
-                    |  activity for a web           |   
-                    |  application                  |
-  Running Engine    |  Spider monkey (FireFox),     |  V8 (Google Chrome)
-                    |  JavaScript Core (Safari),    |
-                    |  V8 (Google Chrome), etc      |
-                       
+   |  Features | JavaScript |  Node Js |
+   | --- | --- | --- |
+   | Type | Programming Language  | Interpreter and environment for JavaScript |
+   | Utility | Used for any client-side activity for a web application  | Used for accessing or performing any non-blocking operation of any operating system |
+   | Running Engine | Running Engine	Spider monkey (FireFox), JavaScript Core (Safari), V8 (Google Chrome), etc.  | V8 (Google Chrome) |
+
 4. Node JS Architecture Flow 
 5. 
