@@ -94,7 +94,7 @@ Now when every time the app receives a request, it prints the message “Applica
    Promise.allSettled will never reject, it will resolve once all Promises in the array have either rejected or resolved.
 
    :red_circle: How to localization in node.js with express :question: 
-   
+   ```
    npm install i18next --save
    npm install i18next-express-middleware --save
    npm install i18next-node-fs-backend --save
@@ -106,6 +106,7 @@ Now when every time the app receives a request, it prints the message “Applica
    --Add language resource files
    So you can perform translations in the controller by using the t method: req.i18n.t("home.title").
    ---
+   ```
    ```
    var i18n = require("i18n");
    i18n.configure({
@@ -120,6 +121,12 @@ Now when every time the app receives a request, it prints the message “Applica
 
 💡 https://github.com/noveogroup-amorgunov/localizify
 
+   :red_circle: What is default expire time for JWT token :question: 
+   
+   Access token expiration is set to 24 hours by default. but it dependce on how it has been configured in the identity server
+   
+   :red_circle: ffffffffffff :question: 
+   :red_circle: ffffffffffff :question: 
    :red_circle: ffffffffffff :question: 
    :red_circle: ffffffffffff :question: 
   
