@@ -2,8 +2,8 @@ Java Script
 
 call(), apply() and bind() Methods in JavaScript.
 
-“this” always refers to an object.
-“this” refers to an object which calls the function it contains.
+"this" always refers to an object.
+"this" refers to an object which calls the function it contains.
 In the global context “this” refers to either window object or is undefined if the ‘strict mode’ is 
 
 .call() - calls the same function with the specified arguments
@@ -37,5 +37,22 @@ let printFullnamewithAddress = function(address){ console.log("First Name-"+ thi
 printFullnamewithAddress.call(rtOne,"Pune")  // First Name-Rajendra + LastName Taradale  Address Pune
 printFullnamewithAddress.apply(rtOne,["Mumbai"])  // First Name-Rajendra + LastName Taradale  Address Mumbai
 
+Bind() - 
+
+let newfun = printFullnamewithAddress.bind(rtOne,["Mumbai"]) 
+newfun() // First Name-Rajendra + LastName Taradale  Address Mumbai
+
+//Custom Bind Method - Polyfill 
+
+Function.prototype.myRTbind = function(...args){
+  let obj = this,
+    params = args.slice(1);
+  return function (...args2) {
+    obj.apply(args[0], [...params, ...args2]);
+  }
+}
+
+let newfunComplex = printFullnamewithAddress.mybind(rtOne, ["Mumbai"]);
+newfunComplex("India");
 
 ```
