@@ -4,4 +4,6 @@
 
 📗 https://github.com/RajendraTaradale/realtime-chat-app - Realtime chat app using socket.io and vanilla JavaScript
 
-📗 https://github.com/RajendraTaradale/realtime-pizza-app-node-express-mongo - Realtime pizza Node-express-mongo-socket.io- stripe Payment 
+📗 https://github.com/RajendraTaradale/realtime-pizza-app-node-express-mongo - Pizza Node-express-mongo-socket.io- stripe Payment 
+
+📗 https://github.com/RajendraTaradale/razorpay-payments-tutorial - Example Razor Pay with Node & React Js
