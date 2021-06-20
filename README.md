@@ -15,3 +15,5 @@
 📗 https://github.com/RajendraTaradale/leaflet-store-locator - Leaflet Js for Interactive Google Maps 
 
 📗 https://github.com/RajendraTaradale/fastify-crash-course - Fastify next version of node express
+
+ℹ️ https://medium.com/@onufrienkos/express-vs-fastify-performance-4dd5d73e08e2 - Blog comparision between express and fastify
