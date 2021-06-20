@@ -13,3 +13,5 @@
 📗 https://github.com/RajendraTaradale/graphql-ecommerce-client - React with 💳 Paypal Payment 
 
 📗 https://github.com/RajendraTaradale/leaflet-store-locator - Leaflet Js for Interactive Google Maps 
+
+📗 https://github.com/RajendraTaradale/fastify-crash-course - Fastify next version of node express
