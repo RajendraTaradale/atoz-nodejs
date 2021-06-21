@@ -20,4 +20,6 @@
 
 📗 https://github.com/RajendraTaradale/nestjs-rest-microservices - Nest Js Microservice with GRPC / ORM sequalizer
 
-📗 https://github.com/RajendraTaradale/nestjs-microservice-example Nestjs microservice using REDIS
+📗 https://github.com/RajendraTaradale/nestjs-microservice-example - Nestjs microservice using REDIS
+
+📗 https://github.com/RajendraTaradale/nestjs-microservices-docker - NestJs Web Socket.io, MongoDB Event-based and Message-based Next-Microservices 
