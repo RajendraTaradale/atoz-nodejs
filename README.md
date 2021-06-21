@@ -19,3 +19,5 @@
 ℹ️ https://medium.com/@onufrienkos/express-vs-fastify-performance-4dd5d73e08e2 - Blog comparision between express and fastify
 
 📗 https://github.com/RajendraTaradale/nestjs-rest-microservices - Nest Js Microservice with GRPC / ORM sequalizer
+
+📗 https://github.com/RajendraTaradale/nestjs-microservice-example Nestjs microservice using REDIS
