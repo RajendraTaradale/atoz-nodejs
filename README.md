@@ -25,3 +25,5 @@
 📗 https://github.com/RajendraTaradale/nestjs-microservices-docker - NestJs Web Socket.io, MongoDB Event-based and Message-based Next-Microservices 
 
 📗 https://github.com/RajendraTaradale/nestjs-myblog -Nest Js ( MySql | TypeORM | Token Authentication with role)
+
+📗 https://github.com/RajendraTaradale/Nestjs-tutorials-beginners - with proper folder structure
