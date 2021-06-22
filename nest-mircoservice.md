@@ -1,3 +1,34 @@
+# Nest CLI Documentation :
+```
+$ npm install -g @nestjs/cli
+$ nest new my-nest-pro
+$ cd my-nest-pro
+$ npm run start:dev
+$ nest g cl data  //Generate class and spec file
+$ nest g co test  // Generate controller, spec and register app.module file 
+$ nest g mo product // Generate Module and register app.module file
+$ nest g s productService // Generate service, spec and register app.module file 
+$ nest g in interceptorHttp // create Interceptors 
+
+```
+# API Swagger Documentation :
+### 3 Steps follow as below :
+```
+[1] npm install --save @nestjs/swagger swagger-ui-express
+
+[2] import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
+
+[3]  const config = new DocumentBuilder()
+    .setTitle('Rajendra Microservice Example')
+    .setDescription('Standard microservice with all features')
+    .setVersion('1.0')
+    .addTag('rt')
+    .build();
+
+  const app = await NestFactory.create(AppModule);
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api', app, document);
+```
 # Nest Microservice ServerSide code snippet :
 
 ### Sample math.service.ts :
