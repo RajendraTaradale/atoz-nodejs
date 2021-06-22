@@ -23,3 +23,5 @@
 📗 https://github.com/RajendraTaradale/nestjs-microservice-example - Nestjs microservice using REDIS
 
 📗 https://github.com/RajendraTaradale/nestjs-microservices-docker - NestJs Web Socket.io, MongoDB Event-based and Message-based Next-Microservices 
+
+📗 https://github.com/RajendraTaradale/nestjs-myblog -Nest Js ( MySql | TypeORM | Token Authentication with role)
