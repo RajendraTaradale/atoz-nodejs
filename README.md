@@ -27,3 +27,5 @@
 📗 https://github.com/RajendraTaradale/nestjs-myblog -Nest Js ( MySql | TypeORM | Token Authentication with role)
 
 📗 https://github.com/RajendraTaradale/Nestjs-tutorials-beginners - with proper folder structure
+
+📗 https://github.com/RajendraTaradale/nestjs-microservice-angular Nest with Angular
